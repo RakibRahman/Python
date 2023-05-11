@@ -15,3 +15,15 @@ try:
     print('Successfully converted',num)
 except:
     print('conversion failed')
+
+inputNumber = input('Enter the number:')
+
+try:
+    ival = int(inputNumber)
+except:
+    ival = -1
+
+if ival >0:
+    print(ival,'is a valid number')
+else:
+    print(inputNumber,'is not a valid number')
