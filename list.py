@@ -9,6 +9,7 @@ arr.insert(1, "hello")
 print(arr)
 arr[0] = "world"
 print(arr)
+print("arr size", len(arr))
 
 if "hello" in arr:
     print("okk")

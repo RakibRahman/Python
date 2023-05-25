@@ -31,3 +31,21 @@ for i in list:
         greaterThan5.append(i)
 
 print("greaterThan5", greaterThan5)
+
+print("-----")
+
+name = "rakibur rahman talukder"
+
+
+def countWord(word):
+    count = 0
+    for i in name:
+        if i == word:
+            count += 1
+    return count
+
+
+print(countWord("r"))
+print(countWord("a"))
+print(countWord("u"))
+print(countWord("t"))
