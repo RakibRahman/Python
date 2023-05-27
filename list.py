@@ -18,6 +18,7 @@ if "hello" in arr:
 print(len(arr))
 
 nums = [1, 2, 3, 4]
+nums = nums + [9, 6, 15]
 # loop through the list
 for i in range(len(arr)):
     nums[i] = nums[i] * 2
@@ -37,11 +38,14 @@ for i in range(len(nestedList)):
 print(nums + [5, 6])
 print(nums * 2)
 
-print("------")
+print("------")1
 #  slice list
 numbers = ["a", "b", "c", "d", "e", "f"]
 numbers[1:4]
+numbers[:4]  # upto 4 index but including it
 copyOfNumbers = numbers[:]
 numbers.append("dfds")
 print(numbers)
 print(copyOfNumbers)
+print("a" in numbers)
+print("x" not in numbers)
