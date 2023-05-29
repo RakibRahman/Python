@@ -38,3 +38,9 @@ except:
 
 sortedObj = sorted([(v, k) for k, v in obj2.items()])
 print(sortedObj)
+x = {'chuck': 1, 'fred': 42, 'jan': 100}
+y = x.items()
+print(y)
+
+days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
+print(days[2])
