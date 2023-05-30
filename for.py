@@ -23,7 +23,6 @@ print("numbers", count)
 print("total", sum)
 print("Average of list:", sum // count)
 
-
 greaterThan5 = []
 
 for i in list:
@@ -49,3 +48,14 @@ print(countWord("r"))
 print(countWord("a"))
 print(countWord("u"))
 print(countWord("t"))
+
+print('table')
+
+
+def table(number):
+    for num in range(10):
+        print(number, '*', num + 1, '=', (num + 1) * number)
+
+
+table(10)
+table(6)
