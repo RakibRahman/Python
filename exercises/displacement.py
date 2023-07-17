@@ -1,0 +1,5 @@
+initialVelocity = int(input('Enter Initial Velocity: '))
+finalVelocity = int(input('Enter Final Velocity: '))
+acceleration = int(input('Enter Acceleration: '))
+result = (finalVelocity ** 2 - initialVelocity ** 2) / (2 * acceleration)
+print(result)
