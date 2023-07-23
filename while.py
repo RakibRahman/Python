@@ -6,6 +6,11 @@ num = 5
 
 # print("boom")
 # print(num)
+limit = 10
+
+while limit:
+    print('Hello', limit)
+    limit -= 1
 
 count = 3
 
