@@ -55,6 +55,8 @@ print('table')
 def table(number):
     for num in range(10):
         print(number, '*', num + 1, '=', (num + 1) * number)
+    else:
+        print('Succesfully printed multiplication table')
 
 
 table(10)
