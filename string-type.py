@@ -9,7 +9,6 @@ print(name[4:])  # slice from that index
 print(name[:4])  # slice upto to that index not including it.
 print(name[:])
 
-
 name2 = "banana"
 # 0-b
 # 1-a
@@ -59,7 +58,7 @@ inbox = "a message from rr@prolificcloud.com.bd - 25/05/23"
 findAt = inbox.find("@")  # get the index of @ sign
 end = inbox.find(" ", findAt)  # look for space after @ sign
 print(findAt, end)
-print(inbox[findAt + 1 : end])
+print(inbox[findAt + 1: end])
 
 str = "x-ad ksad value: 0.956 "
 findZero = str.find("0")
@@ -71,3 +70,10 @@ print("w", withSlice.strip())
 
 x = "From marquard@uct.ac.za"
 print(x[14:17])  # get uct
+
+print(inbox.count('m'))
+
+# Join method
+l1 = ['rakib', 'sakib', 'akib']
+s1 = ','
+print(s1.join(l1))
