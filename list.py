@@ -14,7 +14,6 @@ print("arr size", len(arr))
 if "hello" in arr:
     print("okk")
 
-
 print(len(arr))
 
 nums = [1, 2, 3, 4]
@@ -27,22 +26,21 @@ for i in range(len(arr)):
 #   range returns a list of indices from 0 to n − 1, where n is the length of the list.
 print(nums)
 
-
 # nested lists
 nestedList = ["spam", 1, ["Brie", "Roquefort", "Pol le Veq"], [1, 2, 3]]
 
 for i in range(len(nestedList)):
     print(nestedList[i])
 
-
 print(nums + [5, 6])
 print(nums * 2)
 
-print("------")1
+print("------")
 #  slice list
 numbers = ["a", "b", "c", "d", "e", "f"]
 numbers[1:4]
 numbers[:4]  # upto 4 index but including it
+print('nums', numbers[:4])
 copyOfNumbers = numbers[:]
 numbers.append("dfds")
 print(numbers)

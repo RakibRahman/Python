@@ -11,3 +11,13 @@ names.sort()
 nums2.sort()
 print(nums2)
 print(names)
+
+print('new {} test'.format(5))
+newlist = ['js', 'python', 'java', 'R', 'c++', 'c#', 'rust']
+
+print(newlist[0:2])
+print(newlist[0:])
+print(newlist[0:6:2])  # slice step 2
+print(newlist[::2])  # slice step 2
+print(newlist[3:])
+print(newlist[:3])
